@@ -1,0 +1,59 @@
+/* ==================== EMPLOYEE TABLE & FORM ==================== */
+
+.employee-table .form-label {
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.add-button {
+  font-weight: 600;
+  text-transform: none;
+  border-radius: 8px;
+  padding: 12px 28px !important;
+  font-size: 1.05rem;
+}
+
+.employee-card {
+  border-radius: 12px !important;
+  overflow: hidden;
+}
+
+.custom-table th {
+  background-color: #f8fafc !important;
+  color: #334155 !important;
+  font-weight: 600;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 6px;
+}
+
+/* Dialog Styling */
+.form-dialog {
+  border-radius: 12px !important;
+}
+
+.dialog-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1e2937;
+}
+
+/* Fix label stacking */
+.v-label {
+  margin-bottom: 4px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .employee-table .v-row {
+    flex-direction: column;
+  }
+  
+  .add-button {
+    width: 100%;
+  }
+}
