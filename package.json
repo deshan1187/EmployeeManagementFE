@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "axios": "^1.18.1",
     "vue": "^3.5.38",
     "vue-router": "^5.1.0",
     "vuetify": "^3.12.8"
